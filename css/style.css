@@ -9,7 +9,7 @@ body{
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 52px;
-    color: white;
+    color: #ac2b2b;
     padding-top: 10%;
     text-shadow: black 3px 3px;
 }
@@ -19,13 +19,20 @@ h2{
     font-size: 52px;
 }
 
+h4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style:initial;
+    font-size: 30px;
+}
+
 header{
     display: block;
     background-color:rgb(207, 207, 207);
     height: 600px;
     text-align: center;
     background-attachment: fixed;
-    background-image: url(../img/farmhome.jpg);
+    background-image: url(../img/mercadofundo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,31 +43,31 @@ header{
 
 }
 
-#medicamentos{
+#mercadorias{
     display: block;
     height: 700px;
-    background-color:#468C77;
+    background-color:#812b2b;
 }
 
 
 #empresa{
     display:block;
-    height: 100px;
-    background-color: #70A897;
+    height: 150px;
+    background-color: #ca5c5c;
 
 }
 
 #faleconosco{
     display: block;
     height: 130px;
-    background-color:#23755b;
+    background-color:#752323;
 
 }
 
-#farmaciabrasil{
+#mercadobaratao{
     display: block;
     height: 600px;
-    background-color:#0E543F;
+    background-color:#3a0707;
 
 }
 
@@ -68,8 +75,9 @@ h2{
     padding-top: 18px;
     font-size: 28px;
     font-weight: bold;
+    text-shadow: black 3px 3px;
     text-align: center;
-    color:rgb(34, 34, 34)
+    color:rgb(255, 255, 255)
 }
 
 h3{
@@ -93,7 +101,7 @@ nav ul li{
 
 nav ul li a{
     display:block;
-    background-color: rgb(8, 92, 92);
+    background-color:#9c3838;
     padding: 20px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -105,14 +113,14 @@ nav ul li a:link, a:visited{
 
 nav ul li a:hover{
     color:rgb(255, 255, 255);
-    background-color:rgb(4, 49, 49);
+    background-color:rgb(24, 24, 24);
 }
 
 footer{
-    height: 50px;
-    padding-top: 100px;
+    height: 30px;
+    padding-top: 10px;
     color: white;
     text-align: center;
     font: size 28px;
-    background-color:rgb(5, 53, 53)
+    background-color:#911f1f;
 }
