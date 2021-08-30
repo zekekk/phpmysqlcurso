@@ -112,10 +112,6 @@ nav ul li a:link, a:visited{
     color:white;
 }
 
-nav ul li a:hover{
-    color:rgb(255, 255, 255);
-    background-color:rgb(24, 24, 24);
-}
 
 footer{
     height: 30px;
