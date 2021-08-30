@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 
+#cadastro{
+    display: block;
+    height: 700px;
+    background-color:#812b2b;
+}
+
 body{
     background-color: aliceblue;
     margin: 0;
@@ -10,9 +16,8 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 52px;
     color: #ac2b2b;
-    text-align: end;
     padding-top: 10%;
-    text-shadow: black 2px 2px;
+    text-shadow: black 3px 3px;
 }
 
 h2{
@@ -30,47 +35,14 @@ h4{
 
 header{
     display: block;
+    background-color:rgb(207, 207, 207);
+    height: 600px;
     text-align: center;
+    background-attachment: fixed;
     background-image: url(../img/mercadofundo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: screen;
-}
-
-.menu-principal{
-    width: 100% ;
-}
-
-
-
-#mercadorias{
-    display: block;
-    height: 700px;
-    background-color:#812b2b;
-}
-
-
-#empresa{
-    display:block;
-    height: 150px;
-    background-color: #ca5c5c;
-
-}
-
-#faleconosco{
-    display: block;
-    height: 130px;
-    background-color:#752323;
-
-}
-
-#mercadobaratao{
-    display: block;
-    height: 600px;
-    background-color:#3a0707;
-
 }
 
 h2{
@@ -98,6 +70,7 @@ nav ul li{
     display: block;
     padding: 10x;
 }
+
 
 
 nav ul li a{
