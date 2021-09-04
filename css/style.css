@@ -46,7 +46,7 @@ header{
 
 #mercadorias{
     display: block;
-    height: 2000px;
+    height: 1550px;
     background-color:#812b2b;
 }
 
@@ -70,6 +70,12 @@ header{
     height: 600px;
     background-color:#3a0707;
 
+}
+
+#ofertas{
+    display:block;
+    height: 1000px;
+    background-color:#ad4747;
 }
 
 h2{
