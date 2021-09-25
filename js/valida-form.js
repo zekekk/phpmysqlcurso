@@ -156,3 +156,5 @@ function mostraSenha(input) {
        senha.senha2.type = 'password';
    }    
 }
+
+var codigoBarra = document.querySelector('#codigobarra');

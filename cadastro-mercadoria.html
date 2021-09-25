@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Super Mercado</title>
+</head>
+
+    <body>
+        <header>
+            <h1 id="principal">Super Mercado</h1>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9c3838;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#principal">Super Mercado</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mercadorias">Sessões</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faleconosco">Fale conosco</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cadastro-mercado.html">Cadastre-se</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="O que quer comprar?"
+                                aria-label="Search">
+                            <button type="button" class="btn btn-danger">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <main class="container-fluid">
+                <section class="row mx-5 mt-3 p-3 mb-3 bg-white rounded">
+                    <form action="#" method="get">
+                        <h4 class="mb-3">Cadastro Mercadoria</h4>
+                        <div class="row mb-3">
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="end_numero" class="form-label">Codigo de Barra:</label>
+                                <input type="text" class="form-control" id="end_numero" name="end_numero" placeholder="Código de Barra de 13 números">
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="bairro" class="form-label">Data de Validade:</label>
+                                <input type="date" class="form-control" id="" name="">
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="cidade" class="form-label">Nome da marca:</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome da Marca">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="end_numero" class="form-label">Preço:</label>
+                                <input type="text" class="form-control" id="end_numero" name="end_numero" placeholder="Preço em R$">
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="bairro" class="form-label">Tipo produto:</label>
+                                <input type="text" class="form-control" placeholder="Tipo do produto (queijo, carne, hortaliça,etc)">
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mb-3">
+                                <label for="cidade" class="form-label">Peso:</label>
+                                <input type="text" class="form-control" placeholder="Peso em KG">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-sm-12">
+                        <input type="submit" value="Cadastrar" class="btn btn-danger">
+                    </div>
+                </section>
+            </main>
+        </header>
+    </body>
+</html>
