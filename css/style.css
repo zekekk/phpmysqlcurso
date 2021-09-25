@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 
 body{
-    background-color: aliceblue;
-    margin: 0;
+    background-color: rgb(235, 91, 81);
+    display: block;
 }
 
-/*Comentário CSS*/
+
+div a{
+    color:rgb(235, 91, 81);
+}
+
+h5{
+    font-size: 20px;
+    font-style: inherit;
+}
+
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 52px;
@@ -22,14 +32,18 @@ h2{
 
 h4{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
     font-style:initial;
     font-size: 30px;
     font-weight: bolder;
 }
 
+h7{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
 header{
-    display: block;
     text-align: center;
     background-image: url(../img/mercadofundo.jpg);
     background-position: center;
@@ -46,7 +60,7 @@ header{
 
 #mercadorias{
     display: block;
-    height: 1550px;
+    height: 1100px;
     background-color:#812b2b;
 }
 
@@ -74,7 +88,7 @@ header{
 
 #ofertas{
     display:block;
-    height: 1000px;
+    height: 720px;
     background-color:#ad4747;
 }
 
@@ -119,7 +133,7 @@ nav ul li a:link, a:visited{
 
 
 footer{
-    height: 30px;
+    height: 40px;
     padding-top: 10px;
     color: white;
     text-align: center;

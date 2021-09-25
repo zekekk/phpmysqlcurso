@@ -7,11 +7,11 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(233, 86, 86);
     margin: 0;
 }
 
-/*Comentário CSS*/
+/*Comentário CSS
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 52px;
@@ -98,3 +98,4 @@ footer{
     font: size 28px;
     background-color:#911f1f;
 }
+*/

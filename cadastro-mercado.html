@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">       
         <title>Super Mercado</title>
     </head>
@@ -21,17 +20,9 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                          Mercadorias
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mercadorias">Sessões</a>
+                          </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#faleconosco">Fale conosco</a>
                       </li>
@@ -79,7 +70,7 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 mb-3">
                                 <label for="telefone" class="form-label">Telefone:</label>
-                                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Somente numeros">
+                                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Somente numeros e o DDD">
                             </div>
                         </div>
                         <h4 class="mb-3">Endereço</h4>
@@ -137,19 +128,51 @@
                             </div>
                             <div class="col-lg-6 col-sm-12 mb-3">
                                 <label for="cep" class="form-label">CEP:</label>
-                                <input type="text" class="form-control" id="cep" name="cep" placeholder="Somente números">
+                                <input type="text" class="form-control" id="cep" name="cep" placeholder="Somente números" required>
                             </div>
                         </div>
-                        <div class="col">
+                        <h7 class="mb-3">
+                            Senha de Acesso - 
+                            <small>
+                                <input type="checkbox" id="versenha" class="form-check-input"> ver senha
+                            </small>
+                        </h7>
+                        <div class="row mb-3">
+                            <div class="col-lg-6 col-sm-12 mb-3">
+                                <label for="senha1" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="senha1" name="senha" required>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 mb-3">
+                                <label for="senha2" class="form-label">Confirme a senha:</label>
+                                <input type="password" class="form-control" id="senha2" required>
+                            </div>
+                        </div>
+                            <div class="col-lg-2 col-sm-10 mb-3 form-check">
+                                <input type="checkbox" name="termos" id="termos" class="form-check-input" required>
+                                <label for="termos" class="form-check-label">
+                                   <a href="termo-privacidade.html" target="_blank">Termos de Privacidade e de Uso</a>  
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                        <div class="col-sm-12">
                             <input type="submit" value="Cadastrar" class="btn btn-danger">
                         </div>
                     </form>
                 </section>
             </main>
-            <footer>
-              <h6>Super Mercado&copy;</h6>
-              <h6></h6>
-          </footer>
+          </section>
+          <section id="faleconosco">
+              <h2>Fale conosco</h2>
+              <h3> Telefone/WhatsApp: 99 9999-9999</h3>
+              <h3> E-mail: supermercado@oficial.com</h3>
+              <h3> Instagram: @supermercado</h3>
+          </section>
+      </main>
+      <footer>
+          <h6>Super Mercado&copy;</h6>
+          <h6></h6>
+      </footer>
         <script src="js/valida-form.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
