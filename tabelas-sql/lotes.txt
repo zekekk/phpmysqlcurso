@@ -1,0 +1,29 @@
+CREATE TABLE lotes(
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    	codLote VARCHAR(7) NOT NULL,
+    	validadeLote DATE,
+    	marcaLote varchar(255),
+    	tipoLote TEXT,
+    	valorLote varchar(255),
+    	quantidadeLote varchar(255),
+    	fornecedorLote varchar(255)
+)
+
+required and maxlengh=11
+
+CREATE TABLE clientes(
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+	nomeCliente VARCHAR(255) NOT NULL,
+	cpfCliente VARCHAR(11),
+	dataNCliente DATE,
+	sexoCliente VARCHAR(255),
+	emailCliente VARCHAR(255),
+	telefoneCliente VARCHAR(11),
+	enderecoCliente VARCHAR(255),
+	enderecoNumeroCliente VARCHAR(255),
+	bairroCliente VARCHAR(255),
+	cidadeCliente VARCHAR(255),
+	estadoCliente VARCHAR(2),
+	cepCliente VARCHAR(8),
+	senhaCliente VARCHAR(255)
+)
